@@ -1,0 +1,36 @@
+version: "3"
+services:
+  php:
+    build: .
+    user: "${UID}:${GID}"
+    volumes:
+      - ./src:/var/www/html:z
+    ports:
+      - 8080:80
+
+  db:
+    image: mariadb:latest
+    restart: always
+    environment:
+      TZ: "Europe/Rome"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+      MYSQL_ROOT_PASSWORD: "rootpwd"
+      MYSQL_USER: "testuser"
+      MYSQL_PASSWORD: "testpassword"
+      MYSQL_DATABASE: "testdb"
+    volumes:
+      - db_volumes:/var/lib/mysql
+    ports:
+      - 3307:3306 # Change this line to use port 3307 on the host
+
+  phpmyadmin:
+    image: arm64v8/phpmyadmin:latest
+    ports:
+      - 8081:80
+    environment:
+      - PM_ARBITRARY=1
+    depends_on:
+      - db
+
+volumes:
+  db_volumes:

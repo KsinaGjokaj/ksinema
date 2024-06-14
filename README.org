@@ -1,0 +1,32 @@
+* Ksinema
+** Pershkrimi
+Nje website ecommerce ku perdoruesitm munden te:
+- Te blejne/marrin hua kopje fizike te filmave.
+- Te shikojne te listuara filmat te cilet kane blere.
+- Te kene akses ne review-te e filmave si dhe listen e aktoreve, regjizoreve, kategorizimin ne
+  zhanera etj.
+- Te aksesojne katalogun e filmave te disponueshem dhe te perzgjedhin se cilin deshirojne te
+  porosisin.
+- Vendosja e trailer-it te filmit duke shfrytezuar YouTube API ose sherbime te imdb.
+
+** Siguria
+Cdo perdorues do te kete te drejte login-in veten ne llogarine e tij. Per sa i perket aksesit ne
+katalog, ai do te jete global, pra edhe guest users do te kene mundesi te shikojne filmat qe jane te
+disponueshem, por pa patur mundesi te blejne apo te kerkojne te marrin hua pa patur me pare nje
+llogari ne website. Gjithashtu perdoruesit mund te aksesojne vetem llogarine e tyre. Ata nuk do te
+kene te drejte aksesi ne librarine e perdoruesve te tjere e cila do te jete private.
+
+** Teknologjite qe do te perdoren
+*** Teknologjit frontend
+- HTML
+- CSS
+- javascript
+- Bootstrap
+
+*** Teknologjite backend
+- PHP
+- MySQL
+- phpMyAdmin
+- docker-compose
+
+** Punoi : Ksina Gjokaj

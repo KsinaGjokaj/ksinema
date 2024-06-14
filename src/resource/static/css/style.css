@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+/* Login & SignUp Design */
+.bg_login {
+  background-image: url("../../media/img/background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 900px;
+}
+
+.logo {
+  position: sticky;
+  width: 200px;
+  height: 150px;
+}
+.download a {
+  position: absolute !important;
+  font-size: 60px;
+  color: #fff;
+  border: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.div-form {
+  margin-bottom: 100px;
+}
+
+.error_form {
+  color: #e87c03;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.ui-message a {
+  margin-top: -20px;
+  background-color: #e87c03;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.ui-message {
+  margin-top: -20px;
+  background-color: #e87c03;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.ui-message a {
+  color: white;
+}
+
+.h-form {
+  margin-bottom: 40px;
+  color: #000 !important;
+  filter: brightness(105%);
+  font-size: 20px;
+}
+label {
+  font-size: 16px;
+}
+
+.form-signup,
+.form-login {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #b0b0b0;
+  box-shadow: 4px 7px #ccccad;
+}
+
+.a_signup {
+  background-color: white;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  margin-right: 5px;
+  float: right;
+  margin-top: 10px;
+}
+
+.validimePass li {
+  font-size: 14px;
+  color: #e87c03;
+}
+
+.validimePass {
+  border: 1px solid dimgrey;
+}
+
+.btn-sec {
+  background-color: #222 !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: white !important;
+  text-transform: capitalize;
+}
+
+/* Log in with  design */
+
+.google i {
+  color: #db4437;
+}
+
+.facebook i {
+  color: #3b5998;
+}
+
+.facebook p {
+  display: inline;
+  margin-left: 3px;
+}
+
+.google p {
+  color: black;
+  display: inline;
+  margin-left: 3px;
+}
+
+.faButtons button {
+  width: 100%;
+  border: 1px solid #bdbbbb;
+  background-color: white;
+}
+
+.faButtons button i {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.google {
+  margin-bottom: 10px;
+}
+
+.facebook {
+  width: 10px;
+}
+
+.orLine {
+  width: 100%;
+  height: 20px;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.or {
+  font-size: 20px;
+  background-color: white;
+  color: #222;
+  padding: 0 15px;
+}
+
+/* Footer Design */
+.footer_a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+
+.bg-footer {
+  opacity: 0.85;
+}
+
+.gold {
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.s-media {
+  margin-left: 30px;
+  border: 0 !important;
+  color: #222;
+}
+
+.copy-right {
+  color: #222;
+  background-color: #fff;
+}
+
+/* Responsive css Design */
+@media only screen and (max-width: 540px) {
+}
+
+/* Javascript class add or remove */
+.input {
+  border-bottom: 3px solid #e87c03 !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.nav-li {
+  border-left: 3px solid transparent;
+}
+
+.nav-li:hover {
+  border-left: 3px solid rgb(139, 127, 57);
+  transition: all 0.2s ease-in;
+}
