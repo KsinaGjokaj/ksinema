@@ -28,7 +28,7 @@ require_once("../lib/header.php");
                     <h6>Dashboard</h6>
                 </li>
                 <li><a href="../dashboard.php"><i class="fa fa-user"></i> Profile</a></li>
-                <li><a href="../catalogue.php"><i class="fa fa-film"></i> Catalogue</a></li>
+                <li><a href="../index.php"><i class="fa fa-film"></i> Catalogue</a></li>
                 <li><a href="reset.php"><i class="fa fa-sliders"></i> Settings</a></li>
                 <li><a href="../logout.php"><i class="fa fa-power-off"></i> Log Out</a></li>
             </ul>
