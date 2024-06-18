@@ -1,8 +1,5 @@
 .PHONY: start stop shell
 
-shell:
-	docker-compose exec porto-corsini-fe sh
-
 #build docker container
 build:
 	docker-compose up -d --build --remove-orphans
@@ -19,3 +16,4 @@ restart:
 stop:
 	docker-compose stop
 	
+

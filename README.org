@@ -30,3 +30,5 @@ kene te drejte aksesi ne librarine e perdoruesve te tjere e cila do te jete priv
 - docker-compose
 
 ** Punoi : Ksina Gjokaj
+
+** perte nisur projektin : 	docker-compose up -d --build --remove-orphans

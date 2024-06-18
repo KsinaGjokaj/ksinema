@@ -24,11 +24,11 @@ services:
       - 3307:3306 # Change this line to use port 3307 on the host
 
   phpmyadmin:
-    image: arm64v8/phpmyadmin:latest
+    image: phpmyadmin:latest # Change to a version suitable for amd64
     ports:
       - 8081:80
     environment:
-      - PM_ARBITRARY=1
+      - PMA_ARBITRARY=1
     depends_on:
       - db
 
