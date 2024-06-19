@@ -267,14 +267,19 @@ input[type="file"] {
 .footer_a {
   text-decoration: none;
   display: block;
-  color: #222;
+  color: #fff;
 }
 
 .bg-footer {
   opacity: 0.85;
+  background-color: #222;
 }
 
 .gold {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.link {
   color: #222;
   margin-bottom: 30px;
 }
