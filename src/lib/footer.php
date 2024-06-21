@@ -5,7 +5,7 @@
         <div class="row ">
             <!--Grid column-->
             <div class="col-sm-4  mb-4 mb-md-12 text-center ">
-                <h5 class="text-uppercase gold">Ksina KINEMA</h5>
+                <h5 class="text-uppercase link">Ksina KINEMA</h5>
                 <a class="footer_a" href="/signup/signup.php">Register</a></br>
                 <a class="footer_a" href="/login/login.php">LogIn</a></br>
 
@@ -17,7 +17,7 @@
 
             </div>
             <div class="col-sm-4 mb-4 mb-md-5 text-center">
-                <h5 class="gold">Social Media</h5>
+                <h5 class="link">Social Media</h5>
 
                 <a class="btn btn-primary s-media" style="background-color: #3b5998;" href="#" role="button">
                     <i class="fa fa-facebook"></i>
