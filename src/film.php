@@ -181,11 +181,11 @@ require_once("./lib/header.php");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
   <script>
     const str = '<?php printf('%s', $arr["trailer"]); ?>'
-    const slug = str.split('=').pop();
-    var url = "https://www.youtube.com/embed/" + slug + "?autoplay=0";
-    console.log(url);
+    // const slug = str.split('=').pop();
+    // var url = "https://www.youtube.com/embed/" + slug + "?autoplay=0";
+    // console.log(url);
     var a = document.getElementById('myUrl'); //or grab it by tagname etc
-    a.src = url;
+    a.src = str;
     //    https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1
     //	  https://www.youtube.com/watch?v=qN3OueBm9F4          shembulliii
 

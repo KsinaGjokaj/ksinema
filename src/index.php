@@ -112,7 +112,7 @@ require_once("./lib/connect.php");
                                 </a>
                                 </br>
                                 <?php
-                                printf("<a href=\"%s\"> <i class='fa fa-youtube-play link'> Trailer</i></a>", $arr["trailer"], $arr["trailer"]); ?>
+                                printf("<a href=\"%s\"> <i class='fa fa-youtube-play gold'> Trailer</i></a>", $arr["trailer"], $arr["trailer"]); ?>
                                 <i class="right"><?php printf("%s min", $arr["duration"]) ?></i>
                             </p>
                         </div>

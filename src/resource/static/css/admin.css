@@ -276,11 +276,11 @@ input[type="file"] {
 }
 
 .gold {
-  color: #fff;
+  color: #000;
   margin-bottom: 30px;
 }
 .link {
-  color: #222;
+  color: #fff;
   margin-bottom: 30px;
 }
 .background_gold {
