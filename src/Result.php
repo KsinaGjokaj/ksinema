@@ -10,33 +10,9 @@ require_once("./lib/connect.php");
 
 <body>
     <div class="container1">
-        <div class="nav-bar" id="nav-bar">
-            <img class="logo" src="./resource/media/img/blackGold.png">
-            <a class="triger-a" href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-            <hr class="hr-nav">
-            <ul class="ul-nav">
-                <li>
-                    <h6>Menu</h6>
-                </li>
-                <li class="nav-li"><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
-                <li class="nav-li"><a href="index.php"><i class="fa fa-film"></i> Catalogue</a></li>
-                <?php
-                if (isset($_SESSION["email"])) {
-                ?>
-                    <li class="nav-li"><a href="dashboard.php"><i class="fa fa-user"></i> User Home</a></li>
-                    <li class="nav-li"><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
-                <?php
-                } else {
-                ?>
-                    <li class="nav-li"><a href="loginogin.php"><i class="fa fa-user-circle"></i> Log In</a></li>
-                    <li class="nav-li"><a href="signupignup.php"><i class="fa fa-user"></i> Sign Up</a></li>
-                <?php
-                }
-                ?>
-            </ul>
-        </div>
+    <?php
+    require_once("./lib/sidebar.php");
+    ?>
 
 
         <div class="container2" id="container2">

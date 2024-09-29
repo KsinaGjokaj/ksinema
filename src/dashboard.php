@@ -18,23 +18,9 @@ require_once("./lib/header.php");
 
 <body>
     <div class="container1">
-        <div class="nav-bar" id="nav-bar">
-            <img class="logo" src="./resource/media/img/blackGold.png">
-            <a class="triger-a" href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-            <hr class="hr-nav">
-            <ul class="ul-nav">
-
-                <li>
-                    <h6>Dashboard</h6>
-                </li>
-                <li class="nav-li"><a href="./dashboard.php"><i class="fa fa-user"></i> Profile</a></li>
-                <li class="nav-li"><a href="./index.php"><i class="fa fa-film"></i> Catalogue</a></li>
-                <li class="nav-li"><a href="./user/reset.php"><i class="fa fa-sliders"></i> Settings</a></li>
-                <li class="nav-li"><a href="./logout.php"><i class="fa fa-power-off"></i> Log Out</a></li>
-            </ul>
-        </div>
+    <?php
+    require_once("./lib/sidebar.php");
+    ?>
         <div class="container2" id="container2">
             <div class="logout-nav" style="padding-top: 5px;">
                 <a class="triger-b" href="javascript:void(0);" class="icon" onclick="myFunction()">
