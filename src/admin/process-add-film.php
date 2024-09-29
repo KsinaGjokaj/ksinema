@@ -203,10 +203,6 @@ function structure_data($conn) {
         $data["video"] = $location;
         move_uploaded_file($file_tmp, ".." . $location);
     }
-    else if ($_POST["exists"] != 1) {
-        $data["valid"] = "Video must be povided";
-        return $data;
-    }
 
     return $data;
 }

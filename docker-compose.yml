@@ -7,6 +7,8 @@ services:
       - ./src:/var/www/html:z
     ports:
       - 8080:80
+    environment:
+      - UPLOAD_LIMIT=1000M # Ensure this line is present
 
   db:
     image: mariadb:latest
@@ -18,6 +20,7 @@ services:
       MYSQL_USER: "testuser"
       MYSQL_PASSWORD: "testpassword"
       MYSQL_DATABASE: "testdb"
+
     volumes:
       - db_volumes:/var/lib/mysql
     ports:
